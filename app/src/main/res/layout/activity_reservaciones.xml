@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reservaciones">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20sp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservación"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:id="@+id/txtNombreReser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="Nombre"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageInstalacionReser"
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Techado"
+            android:id="@+id/techado"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Socio"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/txtSocioReser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sd"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:paddingLeft="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/editfechaReser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Pulse aquí para la fecha"
+            android:textColor="@color/black"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textSize="20sp"
+            android:paddingLeft="20sp"
+            />
+
+        <Button
+            android:id="@+id/aceptarReser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnAceptarInsta"
+            android:text="Aceptar"
+            />
+
+    </LinearLayout>
+</LinearLayout>

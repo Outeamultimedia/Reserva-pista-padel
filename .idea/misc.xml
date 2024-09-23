@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/drawable/exit.xml" value="0.3087179487179487" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/drawable/icon_plato.xml" value="0.30416666666666664" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/drawable/icon_salir.xml" value="0.30416666666666664" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/drawable/login.xml" value="0.25" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/drawable/mas.xml" value="0.3087179487179487" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/drawable/salir.xml" value="0.3087179487179487" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_documento.xml" value="0.33" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_duda.xml" value="0.240625" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_instalaciones.xml" value="0.240625" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_main2.xml" value="0.29739583333333336" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_prueba.xml" value="0.32916666666666666" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_reservaciones.xml" value="0.240625" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_reservaviones.xml" value="0.25" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/activity_socio.xml" value="0.25" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/layout.xml" value="0.4109375" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/pruebaa.xml" value="0.24479166666666666" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/spinner_doc.xml" value="0.32916666666666666" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/sppiner_doc.xml" value="0.32916666666666666" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/layout/toolbar.xml" value="0.2947916666666667" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/menu/menu_inicio.xml" value="0.290625" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/menu/menu_main.xml" value="0.28802083333333334" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/menu/menu_regresar.xml" value="0.1796875" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/menu/menuinsta.xml" value="0.24479166666666666" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/menu/option.xml" value="0.24947916666666667" />
+        <entry key="..\:/Dropbox/AndroidStudioProjects/ClubDiversion/app/src/main/res/menu/options.xml" value="0.24739583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

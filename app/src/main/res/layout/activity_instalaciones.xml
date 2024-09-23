@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Instalaciones">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Seleccione la instalación a reservar"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:paddingBottom="20sp"
+    android:paddingTop="20sp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout1"
+            android:onClick="irReserve"
+            android:transitionName="descarga1"
+       >
+
+            <ImageView
+                android:id="@+id/espacio1"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:src="@drawable/descarga1" />
+
+            <TextView
+                android:id="@+id/txtDesespacio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Techada Norte"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout2"
+            android:onClick="irReserve"
+            android:transitionName="descarga2"
+            >
+
+            <ImageView
+                android:id="@+id/espacio2"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:src="@drawable/descarga2" />
+
+            <TextView
+                android:id="@+id/txtDesespacio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Techada Central"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout3"
+            android:onClick="irReserve"
+            android:transitionName="descarga3"
+            >
+
+            <ImageView
+                android:id="@+id/espacio3"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:src="@drawable/descarga3" />
+
+            <TextView
+                android:id="@+id/txtDesespacio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Techada Sur"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout4"
+            android:onClick="irReserve"
+            android:transitionName="descarga4"
+
+            >
+            <ImageView
+                android:id="@+id/espacio4"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/descarga4"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Techada Externa"
+                android:id="@+id/txtDesespacio4"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout5"
+            android:onClick="irReserve"
+            android:transitionName="descarga5"
+            >
+            <ImageView
+                android:id="@+id/espacio5"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/descarga5"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descubiertal"
+                android:gravity="center"
+                android:id="@+id/txtDesespacio5"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout6"
+            android:onClick="irReserve"
+            android:transitionName="descarga6"
+            >
+            <ImageView
+                android:id="@+id/espacio6"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/descarga6"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Descubierta "
+                android:id="@+id/txtDesespacio6"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout7"
+            android:onClick="irReserve"
+            android:transitionName="descarga7"
+            >
+            <ImageView
+                android:id="@+id/espacio7"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/descarga7"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Grupo"
+                android:id="@+id/txtDesespacio7"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout8"
+            android:onClick="irReserve"
+            android:transitionName="descarga8"
+            >
+            <ImageView
+                android:id="@+id/espacio8"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/descarga8"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grupo Central"
+                android:gravity="center"
+                android:id="@+id/txtDesespacio8"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/layout9"
+            android:onClick="irReserve"
+            android:transitionName="descarga9"
+            >
+            <ImageView
+                android:id="@+id/espacio9"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/descarga9"
+                android:padding="5sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Complejo Grande"
+                android:id="@+id/txtDesespacio9"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

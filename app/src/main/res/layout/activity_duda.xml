@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Duda">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+
+            android:text="Duda" />
+
+        <TextView
+            android:id="@+id/txtSocioDuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Socio: "
+            android:paddingLeft="10sp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiDuda"
+            android:paddingLeft="10sp"
+
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Texto de la duda"
+                android:paddingLeft="10sp"
+
+                />
+            <EditText
+                android:id="@+id/editTextoDuda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text=""
+                android:gravity="top|left"
+                android:scrollbars="vertical"
+                android:lines="2"
+                android:maxLines="5"
+                android:paddingLeft="10sp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Respuesta de la duda"
+                android:paddingLeft="10sp"
+
+                />
+            <EditText
+                android:id="@+id/editTextoRespDuda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text=""
+                android:gravity="top|left"
+                android:scrollbars="vertical"
+                android:lines="2"
+                android:maxLines="5"
+                android:paddingLeft="10sp"
+                />
+
+            <Button
+                android:id="@+id/btnaceptarDuda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnCreaDuda"
+                android:text="registrar duda"
+                android:padding="10sp"
+                />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bntIniciar"
+        android:text="Iniciar" />
+
+    <Button
+            android:id="@+id/btnRespDuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnRespDuda"
+            android:text="Responder duda"
+            android:padding="10sp"
+            />
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".SocioRegistrar">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Registrar"
+            android:id="@+id/OpcionSocio"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIP"
+            />
+        <EditText
+            android:id="@+id/editNIPSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            />
+        <EditText
+            android:id="@+id/editNombreSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            />
+        <EditText
+            android:id="@+id/editDireccionSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono"
+            />
+        <EditText
+            android:id="@+id/editTelefonoSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="" />
+
+        <!--TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo"
+            />
+        <EditText
+            android:id="@+id/editCorreoSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="" /-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/GrupoTipoSocio"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:id="@+id/tipoSocSocio"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Socio" />
+                    <RadioButton
+                        android:id="@+id/tipoAdmSocio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Administrador" />
+                </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Contraseña"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:text=""
+                    android:hint="Contraseña"
+                    android:id="@+id/editPassSocio"
+                    />
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:inputType="textPassword"
+                    android:text=""
+                    android:hint="Repita Contraseña"
+                    android:id="@+id/editRePassSocio"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnAceptarSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Validar"
+                android:text="Insertar" />
+
+                <Button
+                    android:id="@+id/btnBorrarSocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="BorrarTabla"
+                    android:text="busca" />
+
+                <Button
+                    android:id="@+id/btnActualizarSocio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="upgrade"
+                    android:text="modificar" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnEliminarSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Eliminar"
+                android:text="Eliminar" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

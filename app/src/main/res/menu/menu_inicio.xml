@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Iniciar Sección"
+        android:id="@+id/Regisra"
+        android:icon="@drawable/login"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="Salir"
+        android:id="@+id/Salir"
+        android:icon="@drawable/salir"
+        app:showAsAction="always"
+        />
+</menu>
+
+

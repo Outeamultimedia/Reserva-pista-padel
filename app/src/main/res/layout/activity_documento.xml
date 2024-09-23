@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Documento">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:paddingBottom="20sp"
+        android:text="Documentos" />
+
+        <TextView
+            android:id="@+id/txtNonDoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10sp"
+            android:text="Descripción" />
+
+    <EditText
+        android:id="@+id/editDecDocum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="text"
+        android:padding="10sp"
+        android:hint="Descripción del contenido"
+        android:text="" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiDesDoc"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            android:text="Link" />
+
+    <EditText
+        android:id="@+id/editLinkDocum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:inputType="text"
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:hint="Enlace del pdf"
+        android:text="" />
+
+        <Button
+            android:id="@+id/btnAceptarDocum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerDoc"
+            android:text="Aceptar" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
